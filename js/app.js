@@ -39,7 +39,7 @@ var Location = function(location) {
     this.quadrant = location.quadrant;
     this.keywords = location.keywords;
     this.location = location.location;
-}
+};
 
 var myViewModel = function() {
     var self = this;
@@ -47,8 +47,8 @@ var myViewModel = function() {
     //Create list of locations
     self.locations = ko.observableArray([]);
     locations.forEach(function(location){
-        self.locations.push(new Location(location))
-    })
+        self.locations.push(new Location(location));
+    });
     //Store the filter
     // inspired by https:/stackoverflow.com/question/20857594/knockout-filtering-on-observable-array
     //filter array using ko.utils.arrayFilter learned from above url and
@@ -65,7 +65,9 @@ var myViewModel = function() {
     });
 
 
-    this.availableQuadrants = ko.observableArray(['All', 'SW', 'SE', 'NE', 'NW']);
+    this.availableQuadrants = ko.observableArray([
+        'All', 'SW', 'SE', 'NE', 'NW'
+    ]);
 
     //This trick picked up from https://github.com/Aqueum/UFS-NeighborhoodMap/blob/master/js/app.js
     this.listClick = function(location) {
