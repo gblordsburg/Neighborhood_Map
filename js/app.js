@@ -72,17 +72,17 @@ var myViewModel = function() {
     //This trick picked up from https://github.com/Aqueum/UFS-NeighborhoodMap/blob/master/js/app.js
     this.listClick = function(location) {
         google.maps.event.trigger(location.marker, "click");
-    }
+    };
     //Filter the map markers, then run a function to filter the list
     this.filterClick = function(quadrant) {
         filterLocations(quadrant, self.locations);
         self.setFilter(quadrant);
-    }
+    };
     //Filter the list
     self.setFilter = function(quadrant) {
         quadrant = filterForm.quadrantlist.value;
         self.currentFilter(quadrant);
-    }
+    };
 };
 
 var vm = new myViewModel();
