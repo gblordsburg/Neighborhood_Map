@@ -2,35 +2,47 @@
 // such as Foursquare
 var locations =
     [
-        {
-            title: 'Deschutes Brewery Portland Public House',
+         {
+            title: 'St. Johns Twin Cinemas',
             quadrant: 'NW',
-            keywords: 'Deschutes Brewery',
-            location: {lat: 45.524527, lng: -122.682030}
+            keywords: 'St. Johns Twin Cinemas',
+            location: {lat: 45.590587, lng: -122.755645}
         },
-        {
-            title: 'Rogue Distillery and Public House',
+         {
+            title: 'Cinema 21',
             quadrant: 'NW',
-            keywords: 'Rogue Ales',
-            location: {lat: 45.525872, lng: -122.685060}
+            keywords: 'Cinema 21',
+            location: {lat: 45.527361, lng: -122.694307}
         },
-        {
-            title: 'Widmer Brothers Brewing',
+         {
+            title: 'Hollywood Theatre',
             quadrant: 'NE',
-            keywords: 'Widmer Brothers Brewery',
-            location: {lat: 45.541126, lng: -122.676498}
+            keywords: 'Hollywood Theatre',
+            location: {lat: 45.535444, lng: -122.620631}
+        },
+         {
+            title: 'Laurelhurst Theater',
+            quadrant: 'NE',
+            keywords: 'Laurelhurst Theater',
+            location: {lat: 45.523255, lng: -122.637492}
         },
         {
-            title: 'Double Mountain Taproom',
+            title: 'Baghdad Theatre',
             quadrant: 'SE',
-            keywords: 'Double Mountain Brewery',
-            location: {lat: 45.479029, lng: -122.617760}
+            keywords: 'Baghdad Theatre',
+            location: {lat: 45.511908, lng: -122.625533}
         },
-        {
-            title: 'Hair of the Dog Brewing Company',
-            quadrant: 'SE',
-            keywords: 'Hair of the Dog Brewing Company',
-            location: {lat: 45.515902, lng: -122.665671}
+         {
+            title: 'Moreland Theatre',
+            quadrant: 'SW',
+            keywords: 'Moreland Theatre',
+            location: {lat: 45.474203, lng:-122.648682}
+        },
+         {
+            title: '5th Avenue Cinema',
+            quadrant: 'SW',
+            keywords: '5th Avenue Cinema',
+            location: {lat: 45.510151, lng: -122.682682}
         }
     ];
 
